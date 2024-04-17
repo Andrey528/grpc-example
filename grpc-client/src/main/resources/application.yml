@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: grpc-client
+
+server:
+  port: 8083
+
+grpc:
+  client:
+    GLOBAL:
+      address: localhost:9092
+      negotiation-type: plaintext
